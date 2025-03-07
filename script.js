@@ -10,6 +10,6 @@ function insert_Row() {
   cell1.style.border = "solid 2px black";
   cell2.style.border = "solid 2px black";
   row.append(cell1, cell2)
-  table.insertBefore(row, table.rows[0]);
+  table.prepend(row)
 
 }
